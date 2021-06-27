@@ -42,7 +42,7 @@ const Form = () => {
   return (
     <div>
       <div className="container">
-        <h3 style={{ fontFamily: "math" }}>...Personal Details...</h3>
+        <h3 style={{ fontFamily: "math" }}>....Personal Details....</h3>
         <form
           action="/action_page.php"
           onSubmit={(e) => submitDetailsHandler(e)}
